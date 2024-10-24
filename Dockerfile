@@ -1,6 +1,6 @@
 FROM golang:latest
 
-ENV CRAWL_GIT_REPO=https://github.com/skylenet/discv4-dns-lists.git \
+ENV CRAWL_GIT_REPO=https://github.com/lyfeloopinc/discv4-dns-lists.git \
     CRAWL_GIT_BRANCH=master \
     CRAWL_GIT_PUSH=false \
     CRAWL_GIT_USER=crawler \
